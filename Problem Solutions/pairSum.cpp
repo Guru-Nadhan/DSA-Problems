@@ -2,6 +2,7 @@
 // Bruteforce: i,j for loop and find pair sum. TC-O(N^2) SC- O(1)
 // Another approach: sort using STL sort and then use 2 pointer method, one at beginning and another at end. TC-O(NlogN)
 // Here we use hashmap method. Time complexity- O(N), Space complexity- O(N)
+// here, we need to return the index of the solution. so we use unordered map instead of unordered set
 class Solution
 {
 public:
